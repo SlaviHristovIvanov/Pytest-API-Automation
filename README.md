@@ -1,16 +1,15 @@
-# Pytest-API-Automation
+This project is a simple yet comprehensive API automation testing framework built with Python, Pytest, and Requests. It includes reusable fixtures, parametrized tests, custom markers, and generates HTML reports using pytest-html.
 
-This project is a simple but complete API automation testing framework built with **Python**, **Pytest**, and **Requests**.  
-It includes reusable fixtures, parametrized tests, custom markers, and generates **HTML reports** using `pytest-html`.
+Technologies Used
 
-- **Python 3.10+**
-- **Pytest** – Test framework
-- **Requests** – HTTP client for REST APIs
-- **Pytest-HTML** – To generate beautiful test reports
+Python 3.10+
+Pytest: Test framework for running and organizing the tests.
+Requests: HTTP client for making API calls to RESTful services.
+Pytest-HTML: To generate beautiful and easy-to-read HTML test reports.
+Features
 
-Run all tests with verbose output and HTML report:
-pytest -v --html=response.html --self-contained-html
-
-
-Run only specific test group using markers:
-pytest -m harry_potter
+Automated API Testing: Testing REST APIs for correctness.
+Reusable Fixtures: Reuse configurations and common setup tasks across tests.
+Parameterized Tests: Run the same test with different inputs.
+Custom Markers: Run tests selectively based on markers.
+HTML Reporting: Generates clean and visual HTML reports.
