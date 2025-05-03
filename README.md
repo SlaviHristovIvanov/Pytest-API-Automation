@@ -25,4 +25,4 @@ This project is a simple yet comprehensive API automation testing framework buil
 
 ##  Test Report
 
-After running tests, you can view the HTML report locally at: http://localhost:63342/Pytest-API-Automation-main/response.html?_ijt=eqa42rmk4ra8g10j1tvn2hk9ac&_ij_reload=RELOAD_ON_SAVE&sort=result
+After running tests, you can view the HTML report locally at: file:///Users/slavi/Downloads/Pytest-API-Automation-main/response.html
